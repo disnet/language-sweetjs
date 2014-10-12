@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "Language support for sweet.js",
   "homepage": "https://github.com/disnet/language-sweetjs",
-  "repository": {
-    "git": "https://github.com/disnet/language-sweetjs.git"
-  },
+  "repository": "https://github.com/disnet/language-sweetjs",
   "bugs": {
     "url": "https://github.com/disnet/language-sweetjs/issues"
   },
