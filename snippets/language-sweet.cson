@@ -1,0 +1,10 @@
+'.source.sjs':
+  'rule macro':
+    'prefix': 'mrule'
+    'body': 'macro ${1:name} {\n    rule { ${2:pattern} } => { ${3:template} }\n}'
+  'case macro':
+    'prefix': 'mcase'
+    'body': 'macro ${1:name} {\n    case { ${2:pattern} } => { ${3:body} }\n}'
+  'operator':
+    'prefix': 'op'
+    'body': 'operator ${1:name} ${2:prec} ${3:assoc} { ${4:$lhs}, ${5:$rhs} } => #{ ${6:body} }'

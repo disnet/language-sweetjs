@@ -1,0 +1,13 @@
+'fileTypes': [
+  "js"
+  "sjs"
+]
+'name': 'Sweet'
+'patterns': [
+  {
+    'name': 'keyword.operator.sjs'
+    'match': '\\b(macro|rule|case|operator)\\b'
+  }
+  { 'include': 'source.js'}
+]
+'scopeName': 'source.sjs'
